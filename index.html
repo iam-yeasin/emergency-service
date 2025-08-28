@@ -27,7 +27,7 @@
 <body>
     <header>
         <nav>
-            <div class="flex justify-between mt-3 px-16">
+            <div class="flex justify-between mt-3 px-16 md:px-16">
                 <div class="flex items-center">
                     <img src="assets/logo.png" alt="" class="w-12">
                     <h1 class="text-[#006747] font-extrabold text-xl ml-2 m-0 leading-tight">Emergency <br> Service</h1>
@@ -61,8 +61,8 @@
     </header>
 
     <main class="bg-[#41ff6b1a]">
-        <section class="w-11/12 mx-auto py-10 grid grid-cols-12 gap-5">
-            <section class="col-span-9 grid grid-cols-3 gap-y-8">
+        <section class="w-11/12 mx-auto py-10 grid grid-cols-1 lg:grid-cols-12 gap-5">
+            <section class="col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-8">
 
 
                 <div class="card bg-base-100 w-96 h-80 shadow-xl pt-5 rounded-3xl">
@@ -302,8 +302,30 @@
                     </div>
                 </div>
             </section>
-            <aside class=" text-white col-span-3">
-                call history
+
+            <aside class="col-span-3 bg-white px-5 pt-5">
+                <div class="flex justify-between items-center">
+                    <h1 class="flex items-center gap-2 text-lg font-semibold">
+                        <img src="assets/clock.png" alt="" class="w-5 h-5">
+                        Call History
+                    </h1>
+                    <button class="bg-[#00A63E] text-white px-5 py-1 rounded-full">
+                        Clear
+                    </button>
+                </div>
+
+
+                <div class="bg-[#FAFAFA] rounded-lg p-4 w-full max-w-sm mx-auto flex justify-between items-center mt-3">
+
+                    <div class="flex flex-col ">
+                        <h5 class="text-xl font-semibold">Ambulance Service</h5>
+                        <p class="text-[#5C5C5C]">1994-999999</p>
+                    </div>
+                    <div>
+                        <p class="">11:36:58 AM</p>
+                    </div>
+
+                </div>
             </aside>
         </section>
     </main>

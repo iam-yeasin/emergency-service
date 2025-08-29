@@ -35,15 +35,15 @@
 
                 <div class="flex items-center gap-3">
                     <div class="bg-[#41ff6b1a] flex items-center px-6 py-2 rounded-full">
-                        <p class="mr-2 font-bold inter">0</p>
+                        <p id="heartCount" class="mr-2 font-bold inter">0</p>
                         <img src="assets/heart.png" alt="" class="w-5">
                     </div>
                     <div class="bg-[#41ff6b1a] flex items-center px-6 py-2 rounded-full">
-                        <p class="mr-2 font-bold inter">100</p>
+                        <p id="coinCount" class="mr-2 font-bold inter">100</p>
                         <img src="assets/coin.png" alt="" class="w-5">
                     </div>
                     <div class="bg-[#00a63e] text-white flex items-center px-6 py-2 rounded-full">
-                        <p class="font-semibold">0 Copy</p>
+                        <p id="copyCount" class="font-semibold">0 Copy</p>
                     </div>
                 </div>
 
@@ -67,23 +67,21 @@
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/emergency.png" alt="Shoes" class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            National Emergency Number
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">National Emergency Number</h1>
                         <p class="roboto text-[#5C5C5C]">National Emergency</p>
-                        <h2 class="font-bold text-2xl mt-5">999</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">999</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">All</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -94,23 +92,21 @@
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/police.png" alt="Shoes" class="bg-[#DFEFFF] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Police Helpline Number
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Police Helpline Number</h1>
                         <p class="roboto text-[#5C5C5C]">Police</p>
-                        <h2 class="font-bold text-2xl mt-5">999</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">999</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Police</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -122,23 +118,21 @@
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/fire-service.png" alt="Shoes"
                             class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Fire Service Number
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Fire Service Number</h1>
                         <p class="roboto text-[#5C5C5C]">Fire Service</p>
-                        <h2 class="font-bold text-2xl mt-5">999</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">999</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Fire</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -148,24 +142,23 @@
                 </div>
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
-                        <img src="assets/ambulance.png" alt="Shoes" class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/ambulance.png" alt="Shoes"
+                            class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Ambulance Service
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Ambulance Service</h1>
                         <p class="roboto text-[#5C5C5C]">Ambulance</p>
-                        <h2 class="font-bold text-2xl mt-5">1994-999999</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">1994-999999</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Health</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -176,23 +169,21 @@
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/emergency.png" alt="Shoes" class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Women & Child Helpline
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Women & Child Helpline</h1>
                         <p class="roboto text-[#5C5C5C]">Women & Child Helpline</p>
-                        <h2 class="font-bold text-2xl mt-5">109</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">109</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Help</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
-                           <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                            <button
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -203,23 +194,21 @@
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/emergency.png" alt="Shoes" class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Anti-Corruption Helpline
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Anti-Corruption Helpline</h1>
                         <p class="roboto text-[#5C5C5C]">Anti-Corruption</p>
-                        <h2 class="font-bold text-2xl mt-5">106</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">106</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Govt.</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -230,23 +219,21 @@
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/emergency.png" alt="Shoes" class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Electricity Helpline
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Electricity Helpline</h1>
                         <p class="roboto text-[#5C5C5C]">Electricity Outage</p>
-                        <h2 class="font-bold text-2xl mt-5">16216</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">16216</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Electricity</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -257,23 +244,21 @@
                 <div class="card bg-base-100 w-full shadow-xl py-8 rounded-3xl flex flex-col justify-between">
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/brac.png" alt="Shoes" class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Brac Helpline
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Brac Helpline</h1>
                         <p class="roboto text-[#5C5C5C]">Brac</p>
-                        <h2 class="font-bold text-2xl mt-5">16445</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">16445</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">NGO</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -285,23 +270,21 @@
                     <div class="flex justify-between items-center w-10/12 mx-auto">
                         <img src="assets/Bangladesh-Railway.png" alt="Shoes"
                             class="bg-[#FFE3E2] px-3 py-3 rounded-2xl w-15" />
-                        <img src="assets/like.png" alt="">
+                        <img src="assets/like.png" alt="" class="heartBtn cursor-pointer">
                     </div>
                     <div class="w-10/12 mx-auto">
-                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2">
-                            Bangladesh Railway Helpline
-                        </h1>
+                        <h1 class="card-title font-bold text-2xl hind-madurai mt-2 serviceName">Bangladesh Railway Helpline</h1>
                         <p class="roboto text-[#5C5C5C]">Bangladesh Railway</p>
-                        <h2 class="font-bold text-2xl mt-5">163</h2>
+                        <h2 class="font-bold text-2xl mt-5 serviceNumber">163</h2>
                         <p class="bg-[#F2F2F2] inline-block px-2 py-1 rounded-full text-[#5C5C5C]">Travel</p>
                         <div class="card-actions flex justify-center gap-3 mt-4">
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
+                                class="copyBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg btn btn-outline">
                                 <img src="assets/copy.png" alt="" class="w-4 h-4">
                                 Copy
                             </button>
                             <button
-                                class="flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
+                                class="callBtn flex-1 max-w-[45%] flex items-center justify-center gap-2 px-3 py-2 rounded-lg bg-[#00A63E] text-white btn btn-outline">
                                 <img src="assets/phone.png" alt="" class="w-4 h-4">
                                 Call
                             </button>
@@ -311,32 +294,25 @@
                 </div>
             </section>
 
-            <aside class="col-span-12 lg:col-span-3 bg-white px-5 pt-5 rounded-lg">
+            <aside class="col-span-12 lg:col-span-3 bg-white shadow-xl px-5 pt-5 rounded-3xl">
                 <div class="flex justify-between items-center">
                     <h1 class="flex items-center gap-2 text-lg font-semibold">
                         <img src="assets/clock.png" alt="" class="w-5 h-5">
                         Call History
                     </h1>
-                    <button class="bg-[#00A63E] text-white px-5 py-1 rounded-full">
+                    <button id="clearHistoryBtn" class="bg-[#00A63E] text-white px-5 py-1 rounded-full cursor-pointer">
                         Clear
                     </button>
                 </div>
 
 
-                <div class="bg-[#FAFAFA] rounded-lg p-4 w-full flex justify-between items-center my-4">
-
-                    <div class="flex flex-col ">
-                        <h5 class="text-xl font-semibold">Ambulance Service</h5>
-                        <p class="text-[#5C5C5C]">1994-999999</p>
-                    </div>
-                    <div>
-                        <p class="">11:36:58 AM</p>
-                    </div>
-
+                <div id="callHistoryContainer" class="mt-4 space-y-4">         
                 </div>
             </aside>
+
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>
